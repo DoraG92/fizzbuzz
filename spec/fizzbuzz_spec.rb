@@ -13,7 +13,13 @@ end
 end
 
 describe 'fizzbuzz' do
-  it 'returns "fizzbuzz" when the number is divisible by 15' do
+  it 'returns "fizzbuzz" when the number is divisible by both 3 and 5' do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
+  end
+end
+
+describe "fizzbuzz" do
+  it "returns 1 when the number is 1" do 
+    expect(fizzbuzz(1)).to eq 1
   end
 end
