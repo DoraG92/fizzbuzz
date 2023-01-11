@@ -1,4 +1,4 @@
-## fizzbuzz :boom:
+## FIZZBUZZ :boom:
 
 #### A Ruby program written with TDD
 
